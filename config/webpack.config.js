@@ -511,8 +511,8 @@ module.exports = function(webpackEnv) {
           loader: 'worker-loader',
           options: {
             // inline: true,
-            name: 'static/[hash].worker.js',
-            publicPath: '/_next/'
+            name: 'static/[hash].worker.js'
+            // publicPath: '/_next/'
           }
         }
       ],
